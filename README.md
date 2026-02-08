@@ -2,7 +2,7 @@
 
 ## 📋 Project Overview
 
-This project implements **Principal Component Analysis (PCA) from scratch** using NumPy for my Math of Machine Learning class. I analyzed socio-economic and tourism indicators across 51 African countries to demonstrate dimensionality reduction while preserving variance.
+This project implements **Principal Component Analysis (PCA) from scratch** using NumPy for my Math of Machine Learning class. I analyzed socio-economic and tourism indicators across 52 African countries to demonstrate dimensionality reduction while preserving variance.
 
 **Key Features:**
 - ✅ PCA implemented from scratch (no sklearn.decomposition.PCA)
@@ -242,7 +242,7 @@ pca-assignment/
 ├── requirements.txt                      # Python dependencies
 ├── README.md                            # This file
 ├── data/
-│   └── world-data-2023.csv              # Dataset (filtered to 51 African countries)
+│   └── world-data-2023.csv              # Dataset (filtered to 52 African countries)
 └── pca_utils/                           # Python library for PCA
     ├── __init__.py
     ├── data_loading.py                  # Data loading and preprocessing
@@ -254,28 +254,6 @@ pca-assignment/
     ├── projection.py                    # Data projection
     └── visualization.py                 # Plotting functions
 ```
-
----
-
-## 🎯 Assignment Requirements Met
-
-✅ **Data Requirements:**
-- African-focused dataset (51 African countries)
-- 35 columns (exceeds 10 minimum requirement)
-- Contains missing values (various columns have NaN)
-- Contains non-numeric data (country names)
-
----
-
-## 🧪 Testing (Optional)
-
-If you want to run the test suite:
-
-```bash
-pytest tests/
-```
-
-This runs property-based tests to verify mathematical correctness of the PCA implementation.
 
 ---
 
@@ -317,8 +295,8 @@ pip install -r requirements.txt
 
 ## �‍🎓 Author
 
-**Student:** Ryan Apreala  
-**Course:** Math of Machine Learning (MMLJ2026)  
+**Student:** Ryan Kelvin Wariebi Apreala  
+**Course:** Mathematics of Machine Learning (MMLJ2026)  
 **Assignment:** Formative 1 - Principal Component Analysis  
 **Date:** February 2026
 
@@ -329,8 +307,6 @@ pip install -r requirements.txt
 1. **Dataset Source:** Nidula Elgiriyewithana. (2023). *Global Country Information Dataset 2023*. Kaggle. https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023
 
 2. **PCA Theory:** Jolliffe, I. T. (2002). *Principal Component Analysis* (2nd ed.). Springer.
-
-3. **Explained Variance Video:** [How Is Explained Variance Used In PCA?](https://www.youtube.com/watch?v=vaF-1xUEXsA&t=17s)
 
 ---
 
@@ -343,5 +319,5 @@ This project is for educational purposes as part of a university assignment.
 ## 🤝 Acknowledgments
 
 - Kaggle for providing the dataset
-- Course instructors for the assignment template
+- Course instructors, Marvin Ogore, for the assignment template
 - The open-source Python community for the amazing libraries
