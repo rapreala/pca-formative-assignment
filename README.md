@@ -18,7 +18,7 @@ This project implements **Principal Component Analysis (PCA) from scratch** usin
 **Source:** Kaggle - [Countries of the World 2023](https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023)
 
 **Dataset Characteristics:**
-- **51 African countries** (filtered from global dataset of 195 countries)
+- **52 African countries** (filtered from global dataset of 195 countries)
 - **35 columns** including:
   - Country name (categorical)
   - Population, Density, Land Area
@@ -34,7 +34,7 @@ This project implements **Principal Component Analysis (PCA) from scratch** usin
 **Why I Chose This Dataset:**
 I selected this dataset and filtered it to African countries because:
 1. It focuses on African nations, which is relevant to the hospitality and tourism context
-2. With 51 African countries, it provides sufficient data points for meaningful PCA analysis
+2. With 52 African countries, it provides sufficient data points for meaningful PCA analysis
 3. It has multiple correlated features (economic indicators often correlate)
 4. Features have different scales (population in millions, GDP in billions, rates in percentages)
 5. It demonstrates how PCA can reveal patterns in African country development and tourism potential
@@ -141,7 +141,7 @@ I implemented PCA in 8 steps following the classical algorithm:
 
 ### **Step 0: Data Loading & Preprocessing**
 - Load the Global Country Information dataset
-- Filter to African countries only (51 countries)
+- Filter to African countries only (52 countries)
 - Handle missing values using mean imputation
 - Encode categorical features (country names)
 - Select numeric features for PCA
